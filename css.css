@@ -1,0 +1,156 @@
+.head {
+  background-color: rgb(78, 76, 76);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.aboutme {
+  text-align: center;
+  color: white;
+}
+.aboutmebox {
+  border-style: inset;
+  margin: 20px;
+  padding-left: 40px;
+  width: 120vh;
+}
+h1,
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px black;
+  color: white;
+}
+p {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.full {
+  margin-left: 30vh;
+  background-image: url("https://i.etsystatic.com/5295659/r/il/4c984c/1840179454/il_794xN.1840179454_hfjo.jpg");
+  background-size: cover;
+  height: 100%;
+  color: white;
+  width: 100%;
+}
+.image2 {
+  border-radius: 100vh;
+  border: solid;
+  position: relative;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+.comment label {
+  flex-basis: 30%;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.comment input {
+  flex-basis: 80%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.comment button {
+  width: 50%;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.mainimage {
+  border-style: solid;
+  border-radius: 100vh;
+  height: 50vh;
+  width: 50vh;
+}
+.end {
+  text-align: center;
+  background-color: rgb(78, 76, 76);
+  height: 15vh;
+  padding: 10px;
+  color: aliceblue;
+}
+.body {
+  margin-left: 30vh;
+}
+.image1 {
+  border-radius: 100vh;
+  border-style: solid;
+}
+@media screen and (max-width: 768px) {
+  .head img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .head .htext {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .aboutmebox {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .body {
+    margin-left: 0;
+  }
+
+  .end {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .head a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .skill {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .end {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
